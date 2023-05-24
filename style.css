@@ -1,0 +1,166 @@
+body {
+  width: 1440px;
+  margin: auto;
+}
+
+header {
+  height: 810px;
+  background-image: url(imagens/Projeto\ P1\ -\ LM_00000-1440x810.png);
+}
+
+header img {
+  position: absolute;
+}
+
+header nav {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+}
+
+header nav li {
+  padding: 10px;
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: justify;
+
+  color: #e0e0ea;
+}
+
+header nav li a {
+  padding: 0px;
+  color: #e0e0ea;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+header nav li a:hover {
+  text-decoration: underline;
+}
+
+#sobre {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 2fr 2fr 1fr;
+  background-image: url(imagens/Gradient\ preto\ e\ branco.png);
+}
+
+#sobre h1 {
+  align-self: center;
+}
+
+#sobre p {
+  align-self: center;
+}
+
+#sobre img {
+  grid-row: 1 / 4;
+  align-self: center;
+  margin: auto;
+}
+
+.ver_mais {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.estados {
+  height: 810px;
+}
+
+.br {
+  position: absolute;
+  width: 773px;
+  height: 682px;
+
+  background: url(file-removebg-preview.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Vector 7 */
+.ba {
+  position: relative;
+  width: 147.63px;
+  height: 164.5px;
+  left: 92px;
+  top: 241px;
+}
+
+/* Vector 5 */
+.pe {
+  position: relative;
+  width: 102px;
+  height: 36px;
+  top: 93px;
+  left: 355px;
+}
+
+/* Vector 4 */
+.rj {
+  position: relative;
+  width: 60px;
+  height: 36px;
+  top: 321px;
+  left: 360px;
+}
+
+/* Vector 3 */
+.sp {
+  position: relative;
+  width: 143px;
+  height: 91.5px;
+  top: 360px;
+  left: 370px;
+}
+
+.a-estados:hover {
+  opacity: 0.5;
+}
+
+/* 
+.sp-hover {
+    position: relative;
+    width: 143px;
+    height: 91.5px;
+    top: 360px;
+    left: 223px;
+    display: none;
+} */
+
+/* Vector 6 */
+.pb {
+  position: relative;
+  width: 64px;
+  height: 36px;
+  top: 71px;
+  left: 288px;
+}
+
+.footer {
+  border-top: 1px solid #e0e0e0;
+}
+
+/* copyright */
+
+.footer .copyright {
+  padding: 1.5rem;
+  font-size: 0.8rem;
+  background-color: #828282;
+  text-align: center;
+  color: #fff;
+}

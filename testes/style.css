@@ -1,0 +1,34 @@
+header {
+  background: #000000;
+  padding: 20;
+}
+
+.caixa {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
+}
+
+nav {
+  top: 25px;
+  left: 20px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 20px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #24486e;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
