@@ -10,7 +10,9 @@ a {
 }
 
 a:hover {
-  text-decoration-line: underline;
+  color: red;
+  opacity: 70%;
+  transition: 0.5s;
 }
 
 .logo {
