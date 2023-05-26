@@ -40,7 +40,7 @@ nav {
   height: auto;
   align-items: center;
   position: absolute;
-  top: 14px;
+  top: 28px;
   left: 200px;
 }
 
@@ -98,4 +98,37 @@ main {
   font-weight: 500;
   text-align: center;
   color: #ffffff;
+}
+
+.imgicon {
+  max-width: 57px;
+  max-height: 57px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  position: absolute;
+  top: 1477px;
+  left: 845px;
+}
+
+.imgicontt {
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  position: absolute;
+  top: 1485px;
+  left: 900px;
+}
+
+.imgiconinst {
+  max-width: 50px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  position: absolute;
+  top: 1485px;
+  left: 950px;
 }
