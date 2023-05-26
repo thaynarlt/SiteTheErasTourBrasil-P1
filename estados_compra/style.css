@@ -130,6 +130,15 @@ main {
   color: #ffffff;
 }
 
+.redes {
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 65px;
+  text-align: center;
+  align-items: center;
+}
+
 .imgiconsp {
   max-width: 57px;
   max-height: 57px;
