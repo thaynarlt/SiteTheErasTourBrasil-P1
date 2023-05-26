@@ -100,7 +100,7 @@ main {
   color: #ffffff;
 }
 
-.imgicon {
+.imgiconsp {
   max-width: 57px;
   max-height: 57px;
   width: auto;
@@ -109,6 +109,20 @@ main {
   position: absolute;
   top: 1477px;
   left: 845px;
+}
+
+.imgiconsp:hover {
+  opacity: 60%;
+  transition: 0.5s;
+}
+.imgicontt:hover {
+  opacity: 60%;
+  transition: 0.5s;
+}
+
+.imgiconinst:hover {
+  opacity: 60%;
+  transition: 0.5s;
 }
 
 .imgicontt {
