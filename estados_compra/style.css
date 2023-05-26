@@ -148,3 +148,23 @@ main {
   top: 1485px;
   left: 950px;
 }
+
+p {
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box {
+  border-radius: 5px;
+  width: 371px;
+  height: 50px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.54);
+  top: 500px;
+  left: 500px;
+}
