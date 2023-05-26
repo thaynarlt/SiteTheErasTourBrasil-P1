@@ -70,7 +70,13 @@ main {
 .mapa iframe {
   width: 100%;
   height: 250px;
-  box-shadow: 0 0 3px #999;
+  border-width: 0%;
+  padding: 0px;
+  border-width: 0px;
+  margin: 0px;
+  left: 0px;
+  top: 0px;
+  touch-action: pan-x pan-y;
 }
 
 .footer {
@@ -80,14 +86,12 @@ main {
 /* copyright */
 
 .footer .copyright {
-  text-align: center;
   padding: 1.5rem;
   font-size: 1rem;
   background-color: #000000;
   font-family: "Geomatrix";
   font-style: normal;
   font-weight: 500;
-  line-height: 28px;
-  text-align: justify;
+  text-align: center;
   color: #ffffff;
 }
