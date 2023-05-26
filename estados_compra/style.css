@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+header ul {
+  display: flex;
+  list-style: none;
+}
 .item_menu {
   text-decoration: none;
   color: white;
@@ -17,6 +21,31 @@
 
 .logo {
   width: 200px;
+}
+#introd {
+}
+
+.titlepb {
+  font-family: "LEMON MILK";
+  margin-left: 100px;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 65px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulocont {
+  flex-basis: 100%;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  padding-left: 20px;
+  font-family: "LEMON MILK";
 }
 
 nav {
@@ -113,17 +142,17 @@ main {
 }
 
 .imgiconsp:hover {
-  opacity: 60%;
-  transition: 0.5s;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 .imgicontt:hover {
-  opacity: 60%;
-  transition: 0.5s;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 .imgiconinst:hover {
-  opacity: 60%;
-  transition: 0.5s;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 .imgicontt {
