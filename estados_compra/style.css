@@ -22,12 +22,11 @@ header ul {
 .logo {
   width: 200px;
 }
-#introd {
-}
 
 .titlepb {
   font-family: "LEMON MILK";
   margin-left: 100px;
+  top: -100px;
   flex-direction: column;
   font-style: normal;
   font-weight: 500;
@@ -41,10 +40,15 @@ header ul {
 .titulocont {
   flex-basis: 100%;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 90px;
+  margin-left: 150px;
   margin-bottom: 20px;
-  font-size: 40px;
   padding-left: 20px;
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
   font-family: "LEMON MILK";
 }
 
@@ -131,11 +135,8 @@ main {
 }
 
 .redes {
+  display: flex;
   flex-direction: column;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 65px;
-  text-align: center;
   align-items: center;
 }
 
