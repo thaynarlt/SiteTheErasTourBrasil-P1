@@ -3,16 +3,16 @@
   padding: 0;
 }
 
-a {
-  color: white;
+.item_menu {
   text-decoration: none;
+  color: white;
   transition: 0.3s;
 }
 
-a:hover {
+.item_menu:hover {
   color: red;
-  opacity: 70%;
-  transition: 0.5s;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 .logo {
@@ -65,7 +65,6 @@ main {
 }
 
 .nav-list li {
-  letter-spacing: 3px;
   margin-left: 32px;
 }
 
