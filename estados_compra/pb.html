@@ -5,73 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comprar Ingresso PB</title>
-    <link rel="icon" href="../imgs/Ts.png">
-    <link href="../estados_compra/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-
   <body>
-    <header>
-      <nav>
-        <h1>
-          <div>
-            <a href="../index.html">
-              <img src="../imgs/ts_title.png" class="logo" >
-            </a>
-          </div>
-        </h1>
-
-        <div>
-          <img src="../imgs/Brazilian_Flag_-_round.svg.png" class="imgbr"/>
-        </div>
-
-          <ul class="nav-list">
-            <a href="../paginas/albuns.html" class="item_menu"><li>Álbuns</li></a>
-            <a href="../paginas/theerastour.html" class="item_menu"><li>Tour</li></a>
-            <a href="../paginas/sobre.html" class="item_menu"><li>Sobre</li></a>
-            <a href="../paginas/tracklist.html" class="item_menu"><li>Tracklist</li></a>
-            <a href="/" class="item_menu"><li>Ingresso</li></a>
-          </ul>
-        </nav>
-
-
+    <nav>
+      <a href="../index.html"> <!-- MUDAR PARA O INDEX-->
+      <div class="logo">
+        <img src="../imgs/ts_title.png" /> <!-- AJEITAR PATH-->
       </div>
-    </header>
+      </a>
+      <ul id="botoesMenu">
+        <a href="../paginas/albuns.html"> <!-- MUDAR HREF -->
+          <li>
+            <p class="item_menu">ÁLBUNS</p>
+          </li>
+        </a>
+        <a href="../paginas/theerastour.html">
+          <li>
+            <p class="item_menu">TOUR</p>
+          </li>
+        </a>
+        <a href="../paginas/sobre.html">
+          <li>
+            <p class="item_menu">SOBRE</p>
+          </li>
+        </a>
+        <a href="../paginas/tracklist.html">
+          <li>
+            <p class="item_menu">TRACKLIST</p>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <p class="item_menu">INGRESSO</p>
+          </li>
+        </a>
+      </ul>
+    </nav>
 
-
-    <main>
-      <div id="introd">
-        <div class="titlepb">
-          <h1>PARAÍBA</h1>
-        </div>
-      </div>
-        <section id="paraiba">
-          <div>
-            <h1 class="titulocont">LOCAL:</h1>
-            <p class="box">Fest Verão - Cabedelo PB</p>
-          </div>
-        </section>
-    </main>
-    <section class="mapa">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2026858.0238247795!2d-38.09922866034022!3d-7.159824210877229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a54cb6ee98c8cf%3A0x1f289b24323c01b4!2zUGFyYcOtYmE!5e0!3m2!1spt-BR!2sbr!4v1684959489827!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-    
+    <div class="content" id="redpb">
+      <div class="height-nav"></div>
+      Perfil
+    </div>
+    <!-- GOOGLE MAPS-->
+    <div class="maps">
+      <section class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2026858.0238247795!2d-38.09922866034022!3d-7.159824210877229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a54cb6ee98c8cf%3A0x1f289b24323c01b4!2zUGFyYcOtYmE!5e0!3m2!1spt-BR!2sbr!4v1684959489827!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </div>
+    </div>
     <footer>
       <div class="footer">
         <div class="copyright">
-          © copyright 2023 - Projeto LM  | Felipe Brito | Letícia Leite | Thayná Tolentino
+          © copyright 2023 - Projeto LM | Felipe Brito | Letícia Leite | Thayná Tolentino
         </div>
-        <section class="redes">
-          <a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02">
-            <img src="../imgs/spotify2.png" class="imgiconsp"/>
-          </a>
-          <a href="https://twitter.com/taylorswift13">
-            <img src="../imgs/icon twitter.png" class="imgicontt"/>
-          </a>
-          <a href="https://www.instagram.com/taylorswift/">
-            <img src="../imgs/icon instagram.png" class="imgiconinst"/>
-          </a>
-        </section>
       </div>
-  </footer>
+    </footer>
   </body>
 </html>
