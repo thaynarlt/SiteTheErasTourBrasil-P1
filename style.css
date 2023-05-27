@@ -267,8 +267,40 @@ header nav li a:hover {
 } */
 
 .footer {
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid black;
   margin: 0;
+  display: flex;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .icones {
+  display: flex;
+  padding-top: 20px;
+}
+
+.footer .icones img {
+  padding: 10px;
+}
+
+.footer .icones a {
+  transition: transform 0.5s;
+  will-change: scale;
+}
+
+.footer .icones a:hover {
+  transform: scale(1.1);
+}
+
+.footer .copyright {
+  padding: 2rem;
+  align-items: center;
+  font-size: 0.8rem;
+  font-family: "Geomatrix";
+  text-align: center;
+  color: #fff;
+  padding-top: 1rem;
 }
 
 /* copyright */
