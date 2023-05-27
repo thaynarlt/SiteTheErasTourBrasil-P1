@@ -50,6 +50,10 @@ a:visited {
 header nav li a:hover {
   text-decoration: underline;
 }
+.item_menu:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 
 .info {
   display: flex;
