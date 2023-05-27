@@ -27,17 +27,25 @@ nav {
   align-items: center;
   width: calc(100% - 40px);
   top: 0;
+
+  width: 100%;
+  padding: 0;
 }
 
 h1,
 p {
   color: #fff;
 }
-
+/*inicio*/
 .container-logo {
   display: flex;
+  padding-left: 20px;
 }
 
+nav ul {
+  padding-right: 20px;
+}
+/*fim das mudanças*/
 .logo {
   display: flex;
   height: 60px;
@@ -141,8 +149,6 @@ button:hover {
   padding-top: 1rem;
 }
 
-/* copyright */
-
 @media (max-width: 300px) {
   nav,
   ul {
@@ -174,5 +180,45 @@ button:hover {
 
   ul.responsivo {
     height: 260px;
+  }
+}
+
+@media (max-width: 713px) {
+  .container-logo {
+    padding: 20px 0 0 0;
+  }
+
+  nav,
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin: 0 0 8px 0;
+  }
+}
+
+@media (max-width: 546px) {
+  nav ul {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+
+  nav ul li {
+    padding: 10px 10px 0 8px;
+  }
+
+  p {
+    margin: 0 0 8px 0;
   }
 }
