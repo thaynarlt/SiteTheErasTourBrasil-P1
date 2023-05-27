@@ -1,15 +1,15 @@
 body {
-  width: 1440px;
-  margin: auto;
+  margin: 0;
+  background-color: rgb(17, 17, 17);
 }
 
 header {
-  height: 810px;
-  background-image: url(imagens/Projeto\ P1\ -\ LM_00000-1440x810.png);
-}
+  height: 0;
+  background-image: url(imgs/cover_00000.png);
+  background-size: cover;
+  padding-bottom: 56.25%;
 
-header img {
-  position: absolute;
+  box-shadow: inset 0px -20px 42px 42px rgb(17, 17, 17);
 }
 
 header nav {
@@ -51,36 +51,130 @@ header nav li a:hover {
   text-decoration: underline;
 }
 
-#sobre {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 2fr 2fr 1fr;
-  background-image: url(imagens/Gradient\ preto\ e\ branco.png);
-}
-
-#sobre h1 {
-  align-self: center;
-}
-
-#sobre p {
-  align-self: center;
-}
-
-#sobre img {
-  grid-row: 1 / 4;
-  align-self: center;
-  margin: auto;
-}
-
-.ver_mais {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
+.info {
   display: flex;
-  justify-content: flex-end;
+  flex-flow: wrap;
+  text-align: center;
+  justify-content: center;
+
+  box-shadow: inset 0px 22px 64px 128px rgb(17, 17, 17),
+    0 -15px 26px 0px rgb(17, 17, 17);
+  background-image: url(imgs/tentativa-fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.info h2 {
+  flex-basis: 100%;
+
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 148.2%;
+  /* or 47px */
+  letter-spacing: 0.065em;
+  color: #ffffff;
+}
+
+.info section {
+  padding: 30px;
+}
+
+.info section h3 {
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 148.2%;
+  /* identical to box height, or 30px */
+
+  letter-spacing: 0.065em;
+
+  color: #ffffff;
+}
+
+.info section p {
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 148.2%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.065em;
+
+  color: #ffffff;
+}
+
+.info section img {
+  filter: drop-shadow(2px 5px 4px rgba(0, 0, 0, 0.25));
+}
+
+/*imagem central*/
+.img-central {
+  background-image: url(imgs/2_00000.png);
+  background-size: cover;
+  height: 0;
+  padding-bottom: 56.25%;
+
+  box-shadow: inset 0px 118px 42px -47px rgb(17, 17, 17),
+    inset 0px -132px 42px -47px rgb(17, 17, 17);
+}
+
+.compre_ingresso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: inset 0px 20px 337px 14px rgb(17, 17, 17);
+}
+
+.compre_ingresso h1 {
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 148.2%;
+  /* or 47px */
+
+  letter-spacing: 0.065em;
+
+  color: #ffffff;
+}
+
+.compre_ingresso p {
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 148.2%;
+  /* or 36px */
+
+  text-align: center;
+  letter-spacing: 0.065em;
+
+  color: #ffffff;
+
+  width: 50%;
 }
 
 .estados {
-  height: 810px;
+  background-image: url(imgs/tentativa-fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.mapa {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: center;
+  align-items: baseline;
+  height: 775px;
+
+  box-shadow: inset 0px -10px 71px 14px rgb(17, 17, 17);
 }
 
 .br {
@@ -97,7 +191,7 @@ header nav li a:hover {
   position: relative;
   width: 147.63px;
   height: 164.5px;
-  left: 92px;
+  left: -21px;
   top: 241px;
 }
 
@@ -107,7 +201,7 @@ header nav li a:hover {
   width: 102px;
   height: 36px;
   top: 93px;
-  left: 355px;
+  left: 234px;
 }
 
 /* Vector 4 */
@@ -116,7 +210,7 @@ header nav li a:hover {
   width: 60px;
   height: 36px;
   top: 321px;
-  left: 360px;
+  left: 235px;
 }
 
 /* Vector 3 */
@@ -124,23 +218,15 @@ header nav li a:hover {
   position: relative;
   width: 143px;
   height: 91.5px;
-  top: 360px;
-  left: 370px;
+  top: 359px;
+  left: 242px;
 }
 
 .a-estados:hover {
-  opacity: 0.5;
+  opacity: 0.65;
+  transform: scale(1.005);
+  transition: 0.3s;
 }
-
-/* 
-.sp-hover {
-    position: relative;
-    width: 143px;
-    height: 91.5px;
-    top: 360px;
-    left: 223px;
-    display: none;
-} */
 
 /* Vector 6 */
 .pb {
@@ -148,11 +234,42 @@ header nav li a:hover {
   width: 64px;
   height: 36px;
   top: 71px;
-  left: 288px;
+  left: 173px;
 }
+
+.img-tripla {
+  /* display: grid; */
+  background-image: url(imgs/img-tripla.png);
+  background-size: cover;
+  display: flex;
+  height: 0;
+  padding-bottom: 46.740638002773925104022191400832%;
+
+  box-shadow: inset 0px 100px 42px -47px rgb(17, 17, 17);
+}
+
+/* .img-tripla > div {
+  display: grid;
+
+} */
+
+/* .img-tripla img {
+  height: 810px;
+}
+
+.img-final-1 {
+  grid-column: 1 / 2;
+}
+.img-final-2 {
+  grid-column: 2 / 3;
+}
+.img-final-3 {
+  grid-column: 3 / 4;
+} */
 
 .footer {
   border-top: 1px solid #e0e0e0;
+  margin: 0;
 }
 
 /* copyright */
