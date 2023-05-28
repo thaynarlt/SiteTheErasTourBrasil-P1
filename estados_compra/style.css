@@ -79,7 +79,6 @@ button {
 }
 
 a:hover,
-h1:hover,
 button:hover {
   transform: scale(1.1);
   transition: 0.3s;
@@ -102,7 +101,87 @@ button:hover {
   background-position: center center;
   height: 120vh;
 }
+/* TENTATIVA DE BOTAR CONTEÚDO ABAIXO*/
+.info-show {
+  position: relative;
+  top: 120px;
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
 
+.info-show section {
+  display: flex;
+}
+
+.local,
+.data,
+.ingresso {
+  flex-direction: column;
+}
+
+.ingresso div {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.estado,
+.finalizar {
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.local,
+.data,
+.ingresso {
+  flex-basis: calc(100% / 3);
+}
+
+.info-show h2 {
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 54px;
+  text-align: center;
+  color: #fff;
+}
+.info-show .paraiba {
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: justify;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info-show p {
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.info-show .finalizar {
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  text-align: justify;
+  color: #ffffff;
+}
+.info-show .finalizar:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+/* FIM TENTATIVA DE BOTAR CONTEÚDO ABAIXO*/
 .mapa iframe {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
