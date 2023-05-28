@@ -99,15 +99,15 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 120vh;
+  height: 135vh;
 }
 /* TENTATIVA DE BOTAR CONTEÚDO ABAIXO*/
 .info-show {
-  position: relative;
   top: 120px;
   display: flex;
   flex-flow: wrap;
   text-align: center;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -161,11 +161,18 @@ button:hover {
 .info-show p {
   font-family: "Geomatrix";
   font-style: normal;
-  font-weight: 300;
+  font-weight: 450;
   font-size: 20px;
-  line-height: 22px;
+  line-height: 20px;
   text-align: center;
   color: #ffffff;
+
+  /* BOX*/
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.54);
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
 }
 
 .info-show .finalizar {
@@ -181,6 +188,12 @@ button:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+}
+
 /* FIM TENTATIVA DE BOTAR CONTEÚDO ABAIXO*/
 .mapa iframe {
   -webkit-filter: grayscale(100%);
