@@ -20,8 +20,6 @@ ul {
 nav {
   background-color: #000000;
   position: fixed;
-  box-shadow: inset 0px 22px 64px 128px rgb(17, 17, 17),
-    0 -15px 26px 0px rgb(17, 17, 17);
   padding: 0 20px;
   justify-content: space-between;
   align-items: center;
