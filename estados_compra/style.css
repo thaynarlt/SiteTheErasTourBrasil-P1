@@ -63,7 +63,7 @@ li {
 }
 
 h1 {
-  margin: 0;
+  margin: 70px;
   padding: 10px;
 }
 
@@ -92,6 +92,9 @@ button:hover {
   background-color: #000000;
   width: 100%;
   height: 100vh;
+}
+.height-nav {
+  top: 100px;
 }
 
 #redpb {

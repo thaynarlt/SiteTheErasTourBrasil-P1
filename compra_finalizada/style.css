@@ -55,7 +55,7 @@ li {
 }
 
 h1 {
-  margin: 0;
+  margin: 450px;
   padding: 10px;
 }
 
@@ -71,7 +71,6 @@ button {
 }
 
 a:hover,
-h1:hover,
 button:hover {
   transform: scale(1.1);
   transition: 0.3s;
@@ -93,6 +92,50 @@ button:hover {
   background-size: cover;
   background-position: center center;
   height: 130vh;
+}
+
+/*.info-show {
+  top: 100px;
+}*/
+
+.info-show .paraiba {
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: justify;
+  color: #fff;
+}
+* .info-show {
+  top: 120px;
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-show section {
+  display: flex;
+}
+
+.local,
+.data,
+.ingresso {
+  flex-direction: column;
+}
+
+.ingresso div {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.estado,
+.finalizar {
+  flex-basis: 100%;
+  justify-content: center;
 }
 
 .footer {
@@ -163,5 +206,45 @@ button:hover {
 
   ul.responsivo {
     height: 260px;
+  }
+}
+
+@media (max-width: 713px) {
+  .container-logo {
+    padding: 20px 0 0 0;
+  }
+
+  nav,
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin: 0 0 8px 0;
+  }
+}
+
+@media (max-width: 546px) {
+  nav ul {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+
+  nav ul li {
+    padding: 10px 10px 0 8px;
+  }
+
+  p {
+    margin: 0 0 8px 0;
   }
 }
