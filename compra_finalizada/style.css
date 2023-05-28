@@ -119,11 +119,17 @@ button:hover {
 .info-show section {
   display: flex;
 }
-.imgcorrect {
+
+/*.info-show img {
+  height: 100px;
+  margin-top: 600px;
+  padding: 100px;
+}
+/*.imgcorrect {
   display: flex;
   margin-top: -450px;
   margin-left: 850px;
-}
+}*/
 
 .local,
 .data,
