@@ -1,0 +1,317 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+nav {
+  background-color: #000000;
+  position: fixed;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 40px);
+  top: 0;
+
+  width: 100%;
+  padding: 0;
+}
+
+h1,
+p {
+  color: #fff;
+}
+/*inicio*/
+.container-logo {
+  display: flex;
+  padding-left: 20px;
+}
+
+nav ul {
+  padding-right: 20px;
+}
+/*fim das mudanças*/
+.logo {
+  display: flex;
+  height: 60px;
+}
+
+nav,
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding: 0 20px;
+  font-family: "Geomatrix";
+}
+
+h1 {
+  margin: 70px;
+  padding: 10px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: none;
+}
+
+a:hover,
+button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.item_menu:hover {
+  color: rgb(0, 8, 255);
+}
+
+.content {
+  background-color: #000000;
+  width: 100%;
+  height: 100vh;
+}
+.height-nav {
+  top: 100px;
+}
+
+#redpb {
+  background-image: url(../imgs/azul-SP_00000.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 155vh;
+}
+/* TENTATIVA DE BOTAR CONTEÚDO ABAIXO*/
+.info-show {
+  top: 120px;
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-show section {
+  display: flex;
+}
+
+.local,
+.data,
+.ingresso {
+  flex-direction: column;
+}
+
+.ingresso div {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.estado,
+.finalizar {
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.local,
+.data,
+.ingresso {
+  flex-basis: calc(100% / 3);
+}
+
+.info-show h2 {
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 54px;
+  text-align: center;
+  color: #fff;
+}
+.info-show .paraiba {
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: justify;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info-show p {
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+
+  /* BOX*/
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.54);
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.info-show .finalizar {
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  text-align: justify;
+  color: #ffffff;
+}
+.info-show .finalizar:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+}
+
+/* FIM TENTATIVA DE BOTAR CONTEÚDO ABAIXO*/
+.mapa iframe {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 100%;
+  height: 250px;
+}
+
+.footer {
+  border-top: 1px solid black;
+  margin: 0;
+  display: flex;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .icones {
+  display: flex;
+  padding-top: 20px;
+}
+
+.footer .icones img {
+  padding: 10px;
+}
+
+.footer .icones a {
+  transition: transform 0.5s;
+  will-change: scale;
+}
+
+.footer .icones a:hover {
+  transform: scale(1.1);
+}
+
+.footer .copyright {
+  padding: 2rem;
+  align-items: center;
+  font-size: 0.8rem;
+  font-family: "Geomatrix";
+  text-align: center;
+  color: #fff;
+  padding-top: 1rem;
+}
+
+@media (max-width: 300px) {
+  nav,
+  ul {
+    flex-direction: row;
+  }
+
+  ul {
+    text-align: center;
+    margin: 0;
+    height: 0;
+  }
+
+  nav {
+    align-items: flex-start;
+  }
+
+  h1 {
+    margin: 10px;
+  }
+
+  button {
+    display: flex;
+  }
+
+  li,
+  ul {
+    width: 100%;
+  }
+
+  ul.responsivo {
+    height: 260px;
+  }
+}
+
+@media (max-width: 713px) {
+  .container-logo {
+    padding: 20px 0 0 0;
+  }
+
+  nav,
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin: 0 0 8px 0;
+  }
+}
+
+@media (max-width: 546px) {
+  nav ul {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+
+  nav ul li {
+    padding: 10px 10px 0 8px;
+  }
+
+  p {
+    margin: 0 0 8px 0;
+  }
+}
