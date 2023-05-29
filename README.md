@@ -51,7 +51,7 @@ O layout da aplicação está disponível no Figma:
 <p align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./imgs/mobile-pgprincipal.png" width="200px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./imgs/mobile-pgprincipal.png" width="200px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./imgs/paraiba-mobile.png" width="200px">
 </p>
 
 ### Web
