@@ -77,12 +77,12 @@ Podemos considerar este projeto como sendo divido em três partes:
 3. xxxx
 
 
-## 📝 Licença
-
-
 ## Feito por:
+
  -Felipe Brito, | [Entre em contato!](https://www.linkedin.com/in/felipe-de-brito-lira-cavalcante-73a777272/)
+ 
  -Letícia Leite e | [Entre em contato!](https://github.com/l-e-t-i-c-i-a)
+ 
  -Thayná Tolentino 👋🏽 | [Entre em contato!](https://www.linkedin.com/in/thaynarlt/)
 
 -[Read Me Inspo:](https://github.com/tgmarinho/Ecoleta/blob/master/README.md)
