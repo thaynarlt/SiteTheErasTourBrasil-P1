@@ -288,6 +288,9 @@ a:-webkit-any-link {
   .info-show {
     display: unset;
   }
+  .info-show .paraiba {
+    font-size: 36px;
+  }
 
   nav,
   ul {

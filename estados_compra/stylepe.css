@@ -83,7 +83,7 @@ button:hover {
 }
 
 .item_menu:hover {
-  color: rgb(0, 136, 181);
+  color: rgb(248, 1, 248);
 }
 
 .content {
@@ -100,7 +100,7 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 135vh;
+  height: 155vh;
 }
 /* TENTATIVA DE BOTAR CONTEÚDO ABAIXO*/
 .info-show {
@@ -283,6 +283,10 @@ a:-webkit-any-link {
 
   h1 {
     padding: 60px;
+  }
+
+  .info-show .paraiba {
+    font-size: 36px;
   }
 
   .info-show {
