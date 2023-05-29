@@ -281,6 +281,14 @@ a:-webkit-any-link {
     padding: 20px 0 0 0;
   }
 
+  h1 {
+    padding: 60px;
+  }
+
+  .info-show {
+    display: unset;
+  }
+
   nav,
   ul {
     display: flex;

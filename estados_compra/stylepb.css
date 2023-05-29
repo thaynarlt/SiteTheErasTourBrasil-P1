@@ -201,7 +201,7 @@ a:-webkit-any-link {
   -moz-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-  width: 100%;
+  width: 100.6%;
   height: 250px;
 }
 
@@ -212,6 +212,7 @@ a:-webkit-any-link {
   background-color: #000000;
   flex-direction: column;
   align-items: center;
+  width: 101%;
 }
 
 .footer .icones {
@@ -281,6 +282,13 @@ a:-webkit-any-link {
     padding: 20px 0 0 0;
   }
 
+  h1 {
+    padding: 60px;
+  }
+
+  .info-show {
+    display: unset;
+  }
   nav,
   ul {
     display: flex;
