@@ -90,4 +90,4 @@ Feito por
 -Letícia Leite e [Entre em contato!](https://github.com/l-e-t-i-c-i-a)
 -Thayná Tolentino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/thaynarlt/)
 
--[Read Me Inspo]: (https://nodejs.org/](https://github.com/tgmarinho/Ecoleta/blob/master/README.md)
+-[Read Me Inspo]: (https://github.com/tgmarinho/Ecoleta/blob/master/README.md)
