@@ -7,17 +7,13 @@
 </h4>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tgmarinho/nlw1?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/thaynarlt/SiteTheErasTourBrasil-P1">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/nlw1">
-
-  <a href="https://github.com/tgmarinho/nlw1/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/nlw1">
-  </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/thaynarlt/SiteTheErasTourBrasil-P1">
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
    <a href="https://github.com/tgmarinho/nlw1/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/tgmarinho/nlw1?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/thaynarlt/SiteTheErasTourBrasil-P1?style=social">
   </a>
 </p>
 
@@ -53,9 +49,9 @@ O layout da aplicação está disponível no Figma:
 ### Mobile
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./imgs/mobile-pgprincipal.png" width="200px">
+  <img alt="The Eras Tour Brasil" title="The Eras Tour Brasil" src="./imgs/mobile-pgprincipal.png" width="200px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./imgs/mobile-pgprincipal.png" width="200px">
+  <img alt="The Eras Tour Brasil" title="The Eras Tour Brasil" src="./imgs/paraiba-mobile.png" width="200px">
 </p>
 
 ### Web
@@ -81,13 +77,12 @@ Podemos considerar este projeto como sendo divido em três partes:
 3. xxxx
 
 
-## 📝 Licença
+## Feito por:
 
-Este projeto esta sobe a licença MIT.
+ -Felipe Brito, | [Entre em contato!](https://www.linkedin.com/in/felipe-de-brito-lira-cavalcante-73a777272/)
+ 
+ -Letícia Leite e | [Entre em contato!](https://github.com/l-e-t-i-c-i-a)
+ 
+ -Thayná Tolentino 👋🏽 | [Entre em contato!](https://www.linkedin.com/in/thaynarlt/)
 
-Feito por 
--Felipe Brito, [Entre em contato!](https://www.linkedin.com/in/felipe-de-brito-lira-cavalcante-73a777272/)
--Letícia Leite e [Entre em contato!](https://github.com/l-e-t-i-c-i-a)
--Thayná Tolentino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/thaynarlt/)
-
--[Read Me Inspo]: (https://nodejs.org/](https://github.com/tgmarinho/Ecoleta/blob/master/README.md)
+-[Read Me Inspo](https://github.com/tgmarinho/Ecoleta/blob/master/README.md)
