@@ -24,7 +24,7 @@
 
 ## 💻 Sobre o projeto
 
-:brazil: The Eras Tour Brasil - O projeto consiste em promover o show da cantora Taylor Swift no Brasil, em especial na região nordeste.
+The Eras Tour Brasil 🇧🇷 - O projeto consiste em promover o show da cantora Taylor Swift no Brasil, em especial na região nordeste.
 
 O site trará informações sobre:
 - A turnê
@@ -61,9 +61,9 @@ O layout da aplicação está disponível no Figma:
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./imgs/home-page.png" width="400px">
+  <img alt="The Eras Tour Brasil" title="The Eras Tour Brasil" src="./imgs/home-page.png" width="400px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/paraiba-home.png" width="400px">
+  <img alt="The Eras Tour Brasil" title="Comprar Ingresso PB" src="./assets/paraiba-home.png" width="400px">
 </p>
 
 ## 🛠 Tecnologias
@@ -85,8 +85,10 @@ Podemos considerar este projeto como sendo divido em três partes:
 
 Este projeto esta sobe a licença MIT.
 
-Feito com por Felipe Brito, [Entre em contato!](https://www.linkedin.com/in/felipe-de-brito-lira-cavalcante-73a777272/)
-Letícia Leite e [Entre em contato!](https://github.com/l-e-t-i-c-i-a)
-Thayná Tolentino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/thaynarlt/)
+Feito por 
+-Felipe Brito, [Entre em contato!](https://www.linkedin.com/in/felipe-de-brito-lira-cavalcante-73a777272/)
+-Letícia Leite e [Entre em contato!](https://github.com/l-e-t-i-c-i-a)
+-Thayná Tolentino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/thaynarlt/)
 
+## 
 [Read Me Inspo]: (https://nodejs.org/](https://github.com/tgmarinho/Ecoleta/blob/master/README.md)
