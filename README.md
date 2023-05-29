@@ -63,7 +63,7 @@ O layout da aplicação está disponível no Figma:
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="The Eras Tour Brasil" title="The Eras Tour Brasil" src="./imgs/home-page.png" width="400px">
 
-  <img alt="The Eras Tour Brasil" title="Comprar Ingresso PB" src="./assets/paraiba-home.png" width="400px">
+  <img alt="The Eras Tour Brasil" title="Comprar Ingresso PB" src="./imgs/paraiba-home.png" width="400px">
 </p>
 
 ## 🛠 Tecnologias
@@ -90,5 +90,4 @@ Feito por
 -Letícia Leite e [Entre em contato!](https://github.com/l-e-t-i-c-i-a)
 -Thayná Tolentino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/thaynarlt/)
 
-## 
-[Read Me Inspo]: (https://nodejs.org/](https://github.com/tgmarinho/Ecoleta/blob/master/README.md)
+-[Read Me Inspo]: (https://nodejs.org/](https://github.com/tgmarinho/Ecoleta/blob/master/README.md)
