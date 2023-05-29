@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Geomatrix";
+  src: url(./fonts/Geomatrix.ttf);
+}
+@font-face {
+  font-family: "LEMON MILK";
+  src: url(./fonts/LEMONMILK-Regular.otf);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -34,6 +43,7 @@ p {
 
 .container-logo {
   display: flex;
+  justify-content: center;
 }
 
 .logo {
@@ -53,8 +63,22 @@ li {
 }
 
 h1 {
-  margin: 450px;
-  padding: 10px;
+  /*position:absolute;
+  top: 150px;
+  left: 40%;
+  background-position: center;*/
+
+  font-family: "";
+  font-style: normal;
+  font-size: 48px;
+
+  /* identical to box height */
+
+  text-align: justify;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 button {
@@ -81,32 +105,59 @@ button:hover {
 .content {
   background-color: #000000;
   width: 100%;
-  height: 100vh;
+  height: 1150vh;
+
+  padding-top: 100px;
 }
 
 #redpb {
-  background-image: url(../imgs/Gradient\ preto\ e\ branco.png);
+  display: flex;
+  background-image: url(../imgs/gradientepb_00000.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 130vh;
+  height: 220vh;
+
+  flex-direction: column;
+  height: fit-content;
+}
+
+.botoes {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5%;
 }
 
 /*.info-show {
       top: 100px;
     }*/
 
-.info-show .paraiba {
+.info-show {
+  display: flex;
   font-family: "LEMON MILK";
   font-style: normal;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 35px;
   line-height: 65px;
   text-align: justify;
   color: #fff;
 }
-* .info-show {
-  top: 120px;
+.theras {
+  /*padding-top: 1px;
+margin-bottom: auto;
+margin-top: auto;
+display: flex;*/
+  font-family: "LEMON MILK";
+  font-style: normal;
+  font-size: 140%;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info-show {
   display: flex;
   flex-flow: wrap;
   text-align: center;
@@ -116,6 +167,10 @@ button:hover {
 
 .info-show section {
   display: flex;
+
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
 }
 
 /*.info-show img {
@@ -128,24 +183,6 @@ button:hover {
       margin-top: -450px;
       margin-left: 850px;
     }*/
-
-.local,
-.data,
-.ingresso {
-  flex-direction: column;
-}
-
-.ingresso div {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-}
-
-.estado,
-.finalizar {
-  flex-basis: 100%;
-  justify-content: center;
-}
 
 .footer {
   border-top: 1px solid black;
@@ -182,6 +219,73 @@ button:hover {
   text-align: center;
   color: #fff;
   padding-top: 1rem;
+}
+.detalhes {
+  /*position: absolute;
+top: 35%;*/
+  display: flex;
+  /*left: 3%;
+right: 3%;*/
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 1;
+  font-size: 25px;
+  line-height: 39px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+.leia {
+  padding: 30px;
+  background: rgba(65, 80, 101, 0.46);
+  border-radius: 5px;
+  /*position: absolute;
+  left: 45%;
+  top: 180%;
+  bottom: 19%;*/
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 3px;
+  text-align: center;
+  color: #ffffff;
+
+  width: fit-content;
+}
+.leia:hover {
+  background: rgb(255, 255, 255);
+  color: rgba(65, 80, 101, 0.46);
+}
+.voltar:hover {
+  color: rgb(255, 255, 255);
+  background: rgba(65, 80, 101, 0.46);
+}
+
+.voltar {
+  /*position: absolute;
+left: 75%;
+top: 200%;
+bottom: 16.67%;*/
+  padding: 30px 60px;
+
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 3px;
+  text-align: justify;
+
+  color: rgba(65, 80, 101, 0.46);
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+
+  width: fit-content;
+}
+
+.content a:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
 @media (max-width: 300px) {
