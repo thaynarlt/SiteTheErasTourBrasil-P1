@@ -49,9 +49,9 @@ O layout da aplicação está disponível no Figma:
 ### Mobile
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./imgs/mobile-pgprincipal.png" width="200px">
+  <img alt="The Eras Tour Brasil" title="The Eras Tour Brasil" src="./imgs/mobile-pgprincipal.png" width="200px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./imgs/paraiba-mobile.png" width="200px">
+  <img alt="The Eras Tour Brasil" title="The Eras Tour Brasil" src="./imgs/paraiba-mobile.png" width="200px">
 </p>
 
 ### Web
