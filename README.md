@@ -85,4 +85,4 @@ Podemos considerar este projeto como sendo divido em três partes:
  
  -Thayná Tolentino 👋🏽 | [Entre em contato!](https://www.linkedin.com/in/thaynarlt/)
 
--[Read Me Inspo:](https://github.com/tgmarinho/Ecoleta/blob/master/README.md)
+-[Read Me Inspo](https://github.com/tgmarinho/Ecoleta/blob/master/README.md)
