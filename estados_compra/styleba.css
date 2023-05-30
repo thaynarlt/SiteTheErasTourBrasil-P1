@@ -333,3 +333,10 @@ a:-webkit-any-link {
     margin: 0 0 8px 0;
   }
 }
+
+/*CONSERTO DO "FINALIZAR" EM BAIXO DO MAPA*/
+@media (max-width: 804px) {
+  #redpb {
+    height: fit-content;
+  }
+}
