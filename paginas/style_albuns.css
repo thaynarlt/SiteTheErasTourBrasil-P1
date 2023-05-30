@@ -1,12 +1,3 @@
-@font-face {
-  font-family: "Geomatrix";
-  src: url(../fonts/Geomatrix.ttf);
-}
-@font-face {
-  font-family: "LEMON MILK";
-  src: url(../fonts/LEMONMILK-Regular.otf);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -148,22 +139,51 @@ button:hover {
   width:166px;
 }*/
 
-.local,
-.data,
-.ingresso {
-  flex-direction: column;
+a {
+  color: #ffffff;
+}
+button:hover {
+  color: rgba(65, 80, 101, 0.46);
+}
+.leia:hover {
+  background: rgb(255, 255, 255);
+  color: rgba(65, 80, 101, 0.46);
+}
+.voltar:hover {
+  color: rgb(255, 255, 255);
+  background: rgba(65, 80, 101, 0.46);
 }
 
-.ingresso div {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+.voltar {
+  /*position: absolute;
+left: 75%;
+top: 200%;
+bottom: 16.67%;*/
+  padding: 30px 60px;
+
+  font-family: "Geomatrix";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 3px;
+  text-align: justify;
+
+  color: #000000;
+  background: rgba(247, 247, 247, 0.46);
+  border-radius: 5px;
+
+  width: fit-content;
 }
 
-.estado,
-.finalizar {
-  flex-basis: 100%;
-  justify-content: center;
+.botoes {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5%;
+}
+
+.content a:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
 .footer {

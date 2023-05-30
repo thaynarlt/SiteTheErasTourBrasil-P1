@@ -1,12 +1,3 @@
-@font-face {
-  font-family: "Geomatrix";
-  src: url(../fonts/Geomatrix.ttf);
-}
-@font-face {
-  font-family: "LEMON MILK";
-  src: url(../fonts/LEMONMILK-Regular.otf);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -63,16 +54,9 @@ li {
 }
 
 h1 {
-  /*position:absolute;
-  top: 150px;
-  left: 40%;
-  background-position: center;*/
-
   font-family: "";
   font-style: normal;
   font-size: 48px;
-
-  /* identical to box height */
 
   text-align: justify;
 
@@ -97,6 +81,24 @@ button:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
+a {
+  color: #ffffff;
+}
+a:hover,
+botton:hover {
+  color: rgba(65, 80, 101, 0.46);
+}
+button:hover {
+  color: rgba(65, 80, 101, 0.46);
+}
+.leia:hover {
+  background: rgb(255, 255, 255);
+  color: rgba(65, 80, 101, 0.46);
+}
+.voltar:hover {
+  color: rgb(255, 255, 255);
+  background: rgba(65, 80, 101, 0.46);
+}
 
 .item_menu:hover {
   color: #565656;
@@ -116,7 +118,7 @@ button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 220vh;
+  /*height: 220vh;*/
 
   flex-direction: column;
   height: fit-content;
@@ -245,23 +247,14 @@ right: 3%;*/
   bottom: 19%;*/
   font-family: "Geomatrix";
   font-style: normal;
-  font-weight: 300;
-  font-size: 25px;
+  font-weight: 50;
+  font-size: 29px;
   line-height: 3px;
   text-align: center;
   color: #ffffff;
 
   width: fit-content;
 }
-.leia:hover {
-  background: rgb(255, 255, 255);
-  color: rgba(65, 80, 101, 0.46);
-}
-.voltar:hover {
-  color: rgb(255, 255, 255);
-  background: rgba(65, 80, 101, 0.46);
-}
-
 .voltar {
   /*position: absolute;
 left: 75%;
@@ -271,13 +264,13 @@ bottom: 16.67%;*/
 
   font-family: "Geomatrix";
   font-style: normal;
-  font-weight: 300;
-  font-size: 25px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 3px;
   text-align: justify;
 
-  color: rgba(65, 80, 101, 0.46);
-  background: rgb(255, 255, 255);
+  color: #000000;
+  background: rgba(247, 247, 247, 0.46);
   border-radius: 5px;
 
   width: fit-content;
