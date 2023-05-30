@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Geomatrix";
-  src: url(./fonts/Geomatrix.ttf);
+  src: url(../fonts/Geomatrix.ttf);
 }
 @font-face {
   font-family: "LEMON MILK";
-  src: url(./fonts/LEMONMILK-Regular.otf);
+  src: url(../fonts/LEMONMILK-Regular.otf);
 }
 
 html {
