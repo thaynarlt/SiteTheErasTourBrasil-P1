@@ -41,7 +41,7 @@ Design e estrutura do projeto foram desenvolvidos pelos estudantes Felipe Brito,
 
 O layout da aplicação está disponível no Figma:
 
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
+<a href="https://www.figma.com/community/file/1245164096110748782/The-Eras-Tour-Brasil">
   <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 
