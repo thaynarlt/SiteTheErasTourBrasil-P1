@@ -6,6 +6,11 @@
   font-family: "LEMON MILK";
   src: url(./fonts/LEMONMILK-Regular.otf);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-color: rgb(17, 17, 17);
