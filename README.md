@@ -70,7 +70,7 @@ As seguintes linguagens foram usadas na construção do projeto:
 
 Acesse o link abaixo:
 
-1. [Clique aqui!](https://l-e-t-i-c-i-a.github.io/SiteTheErasTourBrasil-P1/index.html)
+1. [Clique aqui!](thaynarlt.github.io/SiteTheErasTourBrasil-P1/index.html)
 
 ## Feito por:
 
