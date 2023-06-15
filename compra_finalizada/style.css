@@ -266,7 +266,10 @@ a:-webkit-any-link {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: "Geomatrix";
 }
+
+
 
 form p{
   color: black;
