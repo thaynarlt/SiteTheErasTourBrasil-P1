@@ -26,6 +26,10 @@ ul {
   transition: all 0.5s;
 }
 
+#botoesMenu {
+  padding-top: 27px;
+}
+
 nav {
   background-color: #000000;
   position: fixed;
@@ -37,7 +41,7 @@ nav {
   top: 0;
 }
 
-h1,
+section h1,
 p {
   color: #fff;
 }
@@ -62,12 +66,12 @@ li {
   font-family: "Geomatrix";
 }
 
-h1 {
+section h1 {
   margin: 40px;
   padding: 10px;
 }
 
-button {
+/* button {
   background-color: transparent;
   border: none;
   color: #fff;
@@ -76,10 +80,9 @@ button {
   right: 10px;
   top: 10px;
   display: none;
-}
+} */
 
-a:hover,
-button:hover {
+a:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
@@ -126,7 +129,7 @@ nav {
   padding: 0;
 }
 
-h1,
+section h1,
 p {
   color: #fff;
 }
@@ -156,13 +159,13 @@ li {
   font-family: "Geomatrix";
 }
 
-h1 {
+section h1 {
   margin: 40px;
   padding: 10px;
   margin-top: 400px;
 }
 
-button {
+/* button {
   background-color: transparent;
   border: none;
   color: #fff;
@@ -171,10 +174,9 @@ button {
   right: 10px;
   top: 10px;
   display: none;
-}
+} */
 
-a:hover,
-button:hover {
+a:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
@@ -198,6 +200,7 @@ button:hover {
   background-size: cover;
   background-position: center center;
   height: 155vh;
+  z-index: -1;
 }
 /* TENTATIVA DE BOTAR CONTEÚDO ABAIXO*/
 .info-show {
@@ -259,6 +262,26 @@ a:-webkit-any-link {
 
 /* FIM TENTATIVA DE BOTAR CONTEÚDO ABAIXO*/
 
+.modal-bs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form p{
+  color: black;
+  margin-bottom: 4px;
+}
+
+.legenda-selecao {
+  margin-top: 8px;
+}
+
+.selecao {
+  padding-bottom: 10px;
+}
+
+
 .footer {
   border-top: 1px solid black;
   margin: 0;
@@ -312,13 +335,13 @@ a:-webkit-any-link {
     align-items: flex-start;
   }
 
-  h1 {
+  section h1 {
     margin: 10px;
   }
 
-  button {
+  /* button {
     display: flex;
-  }
+  } */
 
   li,
   ul {
@@ -335,7 +358,7 @@ a:-webkit-any-link {
     padding: 20px 0 0 0;
   }
 
-  h1 {
+  section h1 {
     padding: 60px;
   }
 
@@ -495,13 +518,13 @@ a:-webkit-any-link {
     align-items: flex-start;
   }
 
-  h1 {
+  section h1 {
     margin: 10px;
   }
 
-  button {
+  /* button {
     display: flex;
-  }
+  } */
 
   li,
   ul {
